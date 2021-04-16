@@ -1,0 +1,165 @@
+body{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+.main-thread{
+    width: 900px;
+}
+
+.question h1{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.user{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    height: 35px;
+}
+.question-area{
+    background-color: #fff;
+    padding-top:35px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 900px; 
+    top:0;
+    display: flex;
+    flex-direction: column;  
+
+}
+.chat-box{
+    background-color: #eee;
+    width:900px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+
+}
+.input-area{
+    height:100px;
+    width: 900px;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    bottom:0;
+    flex-wrap: wrap;
+    
+}
+#display{
+    width:100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+#comment{
+    width:600px;
+}
+#sumbit1{
+    background-color: #fff;
+    
+}
+#submit1 p{
+    
+    margin: 0px;
+    padding:0px;
+    color: #c2e2eb;
+    margin-left:20px;
+    margin-left:20px;
+    font-size: 20px;
+    margin-top:28px;
+}
+#submit1:hover{
+    cursor: pointer;
+    
+}
+.image-div{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.missing{
+    margin-left: 30px;
+    margin-top: 4px;
+}
+.chat{
+    min-height:10vh;
+    width: 80%;
+    margin-top: 10px;
+    background-color:#f6f6f6;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    border-radius: 2px;
+    
+}
+.chat:first-child{
+    margin-top: 200px;
+}
+.chat:last-child{
+    margin-bottom: 100px;
+}
+.edit{
+    width: 50%;
+}
+.delete{
+    width: 50%;
+}
+.sector-del-edit{
+    display: flex;
+    width:10%;
+    margin-top: 10px;
+}
+
+.hide{
+
+    display: flex;
+}
+.toggle-display{
+    display: none;
+}
+.submit2 p{
+    margin: 0px;
+    padding:0px;
+    margin-bottom:10px ;
+    margin: 0 20px;
+}
+#t-edit{
+    min-width: 600px;
+}
+.image{
+    width:50px;
+    height: 50px;;
+}
+
+.inpot{
+    display:flex;
+    width:80%;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.comment h3,.username h6{
+    margin:0;
+    padding:0;
+
+}
+.comment{
+    width: 100%;
+    height: 90%;
+}
+.username{
+    width: 100%;
+    height: 10%;
+}
+.comment h3{
+    font-size:  30px;
+}
+.username h6{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.btn-color{
+    color:#c2e2eb;
+}
